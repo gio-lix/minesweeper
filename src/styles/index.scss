@@ -1,0 +1,49 @@
+@import "mixin";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.value-1 {
+  color: blue;
+}
+.value-2 {
+  color: green;
+}
+.value-3 {
+  color: red;
+}
+.value-4 {
+  color: purple;
+}
+.value-5 {
+  color: maroon;
+}
+.value-6 {
+  color: turquoise;
+}
+.value-7 {
+  color: black;
+}
+.value-8 {
+  color: gray;
+}
+

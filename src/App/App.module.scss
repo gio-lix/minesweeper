@@ -1,0 +1,36 @@
+@import "src/styles/mixin";
+
+.app {
+  background-color: #c2c2c2;
+  padding: 16px;
+  @include borders(white, #999);
+}
+
+.header {
+  background-color: #c0c0c0;
+  padding: 10px 12px;
+  @include borders( #999, white);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .face {
+    width: 52px;
+    height: 52px;
+    font-size: 30px;
+    @include borders(white, #999);
+    @include buttons;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.body {
+  margin-top: 16px;
+  @include borders(#7b7b7b, white);
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: repeat(9,1fr);
+}
